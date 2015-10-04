@@ -1,0 +1,1 @@
+search: --format html --out report.html --format pretty --tags @search
