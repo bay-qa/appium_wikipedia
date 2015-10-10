@@ -3,7 +3,6 @@ require 'appium_lib'
 require 'rspec'
 require 'pry'
 
-require_relative 'wikipedia'
 require_relative 'screen_actions'
 
 APP_PATH = ENV['APP'] ||  File.join(File.dirname(__FILE__), "..", "..", "Wikipedia.app")
