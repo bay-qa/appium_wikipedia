@@ -20,6 +20,32 @@ class Wikipedia
     @article_screen ||= ArticleScreen.new
   end
 
+  def login_screen
+    @login_screen ||= LoginScreen.new
+  end
+
+  def settings_screen
+    @settings_screen ||= SettingsScreen.new
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   # class << self
   #
   #   def register_page_object(klass)

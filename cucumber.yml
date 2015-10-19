@@ -1,1 +1,3 @@
 search: --format html --out report.html --format pretty --tags @search
+login: --format html --out report.html --format pretty --tags @login
+settings: --format html --out report.html --format pretty --tags @settings
