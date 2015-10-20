@@ -26,20 +26,6 @@ Then(/^I should see Invalid password error message$/) do
 end
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Then(/^I should see Invalid username error message$/) do
+  login_screen.invalid_password_msg
+end

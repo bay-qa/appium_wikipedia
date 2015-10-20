@@ -20,6 +20,10 @@ class LoginScreen < ScreenActions
     find_element(:name, "The password you provided is incorrect.")
   end
 
+  def invalid_username_msg
+    find_element(:name, "The user name you provided doesn't exist.")
+  end
+
 
 
 
