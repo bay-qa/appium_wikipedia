@@ -17,6 +17,7 @@ Feature: Wikipedia login functionality
     Then I type "qwert" to password text field
     When I press on done button
     Then I should see Invalid username error message
+
     
     
 
