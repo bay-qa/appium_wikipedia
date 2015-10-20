@@ -27,5 +27,5 @@ end
 
 
 Then(/^I should see Invalid username error message$/) do
-  login_screen.invalid_password_msg
+  login_screen.invalid_username_msg
 end
