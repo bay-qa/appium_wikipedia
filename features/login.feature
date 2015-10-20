@@ -18,5 +18,6 @@ Feature: Wikipedia login functionality
     When I press on done button
     Then I should see Invalid username error message
     
+    
 
 
