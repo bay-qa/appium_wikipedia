@@ -1,5 +1,5 @@
 Given(/^I press on Login button$/) do
-  launch_screen.login_button.click
+  login_button.click
 end
 
 Then(/^I land on Login page$/) do
@@ -18,7 +18,7 @@ end
 
 
 When(/^I press on done button$/) do
-  login_screen.done_button.click
+  login_screen.done_button
 end
 
 Then(/^I should see Invalid password error message$/) do

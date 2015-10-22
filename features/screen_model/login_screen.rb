@@ -1,7 +1,7 @@
 class LoginScreen < ScreenActions
 
   def login_header
-    find_element(:name, "Log in")
+    find_elements(:name, "Log in")
   end
 
   def user_name_field
@@ -23,13 +23,6 @@ class LoginScreen < ScreenActions
   def invalid_username_msg
     find_element(:name, "The user name you provided doesn't exist.")
   end
-
-
-
-
-
-
-
 
 end
 

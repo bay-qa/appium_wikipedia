@@ -1,6 +1,6 @@
 When(/^I tap on skip button$/) do
-  launch_screen.skip_button.click
 end
+launch_screen.skip_button.click
 
 Then(/^I land on Home screen$/) do
   result = home_screen.home_button_value
