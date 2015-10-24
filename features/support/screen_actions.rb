@@ -1,4 +1,4 @@
-class ScreenActions
+class ScreenAction
 #
 #   Wikipedia.register_page_object(self)
 #
