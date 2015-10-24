@@ -28,6 +28,31 @@ class Wikipedia
     @settings_screen ||= SettingsScreen.new
   end
 
+  def screen_actions
+    @screen_actions ||= ScreenActions.new
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

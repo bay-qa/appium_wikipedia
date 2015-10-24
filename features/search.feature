@@ -1,4 +1,3 @@
-@search
 Feature: Wikipedia search
 
   Scenario: As Wikipedia user, I would like to perform simple search
@@ -25,3 +24,50 @@ Feature: Wikipedia search
       |    subject         |search_result    |
       |test automation     | test automation |
       |Selenium Web Driver | selenium        |
+
+  @search
+  Scenario: User able to delete all recent searches
+    When I tap on skip button
+    Then I land on Home screen
+    And I tap on Search button
+    Then I land on Search screen
+    And I type "test automation"
+    Then I press on Cancel button
+    When I press on Delete button
+    Then I should see 'Delete all searches' alert
+    When I press Delete All button on alert
+    Then I should see 0 results in recent searches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

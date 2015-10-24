@@ -39,3 +39,39 @@ And(/^I verify that article title include "([^"]*)"$/) do |expected_result|
   actual_result = article_screen.article_title
   expect(actual_result.text.downcase).to include expected_result
 end
+
+
+Then(/^I press on Cancel button$/) do
+  screen_actions.cancel_button.click
+end
+
+
+When(/^I press on Delete button$/) do
+  screen_actions.delete_button.click
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
