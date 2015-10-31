@@ -17,3 +17,7 @@ Then(/^Send usage reports toggle should be turned (off|on)$/) do |state|
     expect(settings_screen.send_usage_reports_toggle.attribute(:value)).to be == 1
   end
 end
+
+And(/^I tap on Privacy policy$/) do
+  settings_screen.privacy_policy_link.click
+end

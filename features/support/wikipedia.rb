@@ -32,44 +32,7 @@ class Wikipedia
     @screen_actions ||= ScreenActions.new
   end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  #  Uncommend this code if want to use singleton class
 
   # class << self
   #

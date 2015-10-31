@@ -1,3 +1,5 @@
 .idea/
 Gemfile.lock
 report.html
+junit_format/
+screenshots/

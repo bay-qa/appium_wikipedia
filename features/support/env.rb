@@ -3,6 +3,7 @@ require 'appium_lib'
 require 'rspec'
 require 'pry'
 
+require_relative 'wikipedia'
 require_relative 'screen_actions'
 
 APP_PATH = ENV['APP'] ||  File.join(File.dirname(__FILE__), "..", "..", "Wikipedia.app")
@@ -22,6 +23,7 @@ def caps
 end
 
 Appium::Driver.new(caps)
+Appium.promote_appium_methods Wikipedia
 Appium.promote_appium_methods ScreenActions
 
 World do

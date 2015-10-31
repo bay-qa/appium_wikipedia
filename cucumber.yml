@@ -1,3 +1,5 @@
 search: --format html --out report.html --format pretty --format junit --out junit_format --tags @search
 login: --format html --out report.html --format pretty --format junit --out junit_format --tags @login
 settings: --format html --out report.html --format pretty --format junit --out junit_format --tags @settings
+gestures: --format html --out report.html --format pretty --format junit --out junit_format --tags @gestures
+webview: --format html --out report.html --format pretty --format junit --out junit_format --tags @webview

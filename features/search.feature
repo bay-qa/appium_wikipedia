@@ -60,14 +60,3 @@ Feature: Wikipedia search
 
 
 
-
-
-
-
-
-
-
-
-
-
-

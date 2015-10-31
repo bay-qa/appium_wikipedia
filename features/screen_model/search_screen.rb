@@ -20,24 +20,4 @@ class SearchScreen < ScreenActions
     find_element(:class_name, "UIATableView").find_elements(:class_name, "UIATableCell")
   end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 end

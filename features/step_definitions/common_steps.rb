@@ -51,27 +51,12 @@ When(/^I press on Delete button$/) do
 end
 
 
+Then(/^I scroll down until I "([^"]*)" is displayed$/) do |text|
+  screen_actions.scroll_until text
+end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Then(/^I land on Privacy policy web page$/) do
+  # switch to Safari browser
+  screen_actions.switch_to_context("WEBVIEW_1")
+  expect(settings_screen.privacy_page_header).to be == "Privacy policy"
+end
